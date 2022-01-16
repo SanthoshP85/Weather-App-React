@@ -1,0 +1,40 @@
+.infocomponent{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: palegoldenrod;
+    width: max-content;
+    margin-top: 6px;
+}
+.headbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+}
+.row{
+    padding: 10px;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.value{
+    color: black;
+}
+.icon{
+    color: darkred;
+    margin-right: 15px;
+}
+.error{
+   
+    color: red;
+    font-weight: bold;
+    font-style: bold;
+    margin: 50px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}

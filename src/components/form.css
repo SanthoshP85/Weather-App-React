@@ -1,0 +1,65 @@
+.logo{
+  
+    
+    font-family: 'Playfair Display', 'Georgia', serif;
+    color:rgb(238, 238, 24);
+    margin-bottom: 10px;
+    margin-top: 2px;
+}
+
+.focomponent {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.forminput{
+    color: white;
+    margin-right: 5px;
+    flex: 1;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0px;
+}
+.labelcountry{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2px;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.labelcity{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.labelRoot{
+    font-size: 15px;
+    color: 'white';
+    
+}
+.buttonG{
+    background-color:green;
+    color: #fff;
+    width: 170px;
+    height: 50px;
+    margin-top: 5px;
+    font-family: bold;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+    font-size: 16px;
+
+}
+.buttondiv{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}

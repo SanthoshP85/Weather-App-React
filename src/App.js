@@ -4,7 +4,9 @@ import Weather from './components/Weather';
 
 function App() {
   return (
+  <div className='mbody'>
     <Weather />
+    </div>
   );
 }
 export default App;
