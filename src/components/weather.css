@@ -1,0 +1,21 @@
+
+
+.component {
+    height: "100vh";
+    display: 'flex';
+    align-items: 'center';
+    width: '65%';
+    margin: '0 auto';
+}
+.leftContainer {
+    width: "27%";
+    height: "80px";
+    background-image: "url(${Image})";
+    background-size: 'cover';
+    border-radius: '20px 0 0 20px';
+}
+.rightContainer{
+    width: '73%';
+    height: '80%';
+    background-color: 'linear-gradient(to right, #e74c3c, #e67e22)';
+}
